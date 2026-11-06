@@ -13,7 +13,7 @@ import db
 from matching import INTENTS, estimate_fare, rank_drivers
 
 app = FastAPI(title="Intent-Aware Ride-Hailing")
-app.add_middleware(CORSMiddleware, allow_origins=["*"], allow_methods=["*"], allow_headers=["*"])
+app.add_middleware(CORSMiddleware, allow_origins=["https://awa-intent-aware-ride-hailing-app.vercel.app", "http://localhost:8081"], allow_methods=["*"], allow_headers=["*"])
 
 
 # ---------- request bodies ----------
