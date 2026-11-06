@@ -1,5 +1,7 @@
 # Awa: Intent-Aware Ride-Hailing
+**Live demo:** https://awa-intent-aware-ride-hailing-app.vercel.app
 
+> The backend runs on a free server that sleeps when idle, so the first load can take about 50 seconds. To try it, open two browser windows: one as the passenger and one as the driver the ride is offered to.
 Most ride apps treat every booking the same. **Awa** lets a passenger say how much a trip matters
 (*Flexible*, *Important* or *Time-sensitive*) and uses that, together with each driver's reliability,
 to pick the driver. If the driver cancels after accepting, the **same booking** is re-matched
